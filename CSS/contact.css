@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#containerContacte {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mapa {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+
+#formulari {
+    margin-top: 100px;
+}
+
+#formulari input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formulari input[type="envio"] {
+    background-color: #f38c2c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formulari input[type="envio"]:hover {
+    background-color: #e07b24;
+}
+
+
+
+header {
+    background-color:#169CA4;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    font-family: 'Kanit';
+    background-color: #F7C620;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+}
+footer {
+    width: 100%;
+    background-color: #665959;
+    color: #1b1b1b;
+    padding: 2px;
+}
+p{
+    text-align: center;
+}
+h6{
+    text-align:left;
+    font-size: 15px;
+}
+.location-container {
+    text-align: right;
+}

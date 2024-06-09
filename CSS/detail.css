@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.detalle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url("https://articles-img.sftcdn.net/t_articles/auto-mapping-folder/sites/2/2023/05/resident-evil-4-remake-fondo.jpg") ;
+    padding: 20px;
+    margin: 20px;
+    color:#f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#f4f4f4;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+p{
+    color:#f4f4f4;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.comprar {
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.comprar:hover {
+    background-color: #732d91;
+}
+
+.botones-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #2980b9;
+}
+header {
+    background-color:#169CA4;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    font-family: 'Kanit';
+    background-color: #F7C620;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+}
